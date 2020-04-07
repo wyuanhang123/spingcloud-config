@@ -1,2 +1,2 @@
-server:
-  config: "config-dev 01"
+config:
+  info: "config-dev 01"
