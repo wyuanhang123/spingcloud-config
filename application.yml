@@ -1,9 +1,15 @@
 spring:
-  application:
-    name: gateway
-  cloud:
-    config:
-      uri: http://config:8888
-      fail-fast: true
-      password: ${CONFIG_SERVICE_PASSWORD}
-      username: user
+  profiles: 
+    active: dev
+
+spring: 
+  profiles: dev
+  application: 
+    name: springcloud-config-dev
+    
+    
+spring: 
+  profiles: test
+  application: 
+    name: springcloud-config-test
+    
