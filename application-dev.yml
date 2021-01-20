@@ -1,4 +1,6 @@
+server: 
+  port: 3355
 spring: 
   profiles: dev
   application: 
-    name: springcloud-config-dev
+    name: springcloud-config-client-dev-3355

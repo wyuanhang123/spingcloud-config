@@ -1,0 +1,6 @@
+server: 
+  port: 3366
+spring: 
+  profiles: test
+  application: 
+    name: springcloud-config-client-test-3366
