@@ -1,6 +1,11 @@
-server: 
-  port: 3355
-spring: 
-  profiles: dev
-  application: 
-    name: springcloud-config-client-dev-3355
+mybatis:
+  type-aliases-package: com.springcloud.api.pojo
+  mapper-locations: classpath:mapper/*.xml
+  
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mybatis-plus?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
