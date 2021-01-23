@@ -1,8 +1,6 @@
 spring: 
   profiles: 
     active: dev
-  application: 
-    name: springcloud-config-client-test-3366
  
 
     
